@@ -1,0 +1,12 @@
+version: 2
+
+models:
+  - name: fact_movie_performance
+    columns:
+      - name: movie_id
+        tests:
+          - not_null
+          - relationships:
+              arguments:
+                to: ref('dim_movie')
+                field: movie_id
