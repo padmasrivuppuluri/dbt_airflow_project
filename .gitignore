@@ -1,4 +1,10 @@
+.env
+logs
+Python cache
+Virtual environment files
 
 target/
 dbt_packages/
 logs/
+
+profiles.yml
