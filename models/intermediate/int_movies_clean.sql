@@ -11,16 +11,6 @@ select
     vote_count,
     adult,
     genre_ids,
-    case
-        when rating >= 8 then 'Excellent'
-        when rating >= 6 then 'Good'
-        when rating >= 4 then 'Average'
-        else 'Low'
-    end as rating_category,
-    case
-        when popularity >= 500 then 'Very High'
-        when popularity >= 300 then 'High'
-        when popularity >= 100 then 'Medium'
-        else 'Low'
-    end as popularity_category
+    {{ get_rating_category('rating') }} as rating_category,
+    {{ get_popularity_category('popularity') }} as popularity_category
 from {{ ref('stg_popular_movies') }}

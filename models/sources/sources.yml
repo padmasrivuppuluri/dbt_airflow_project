@@ -6,3 +6,4 @@ sources:
     schema: tmdb
     tables:
       - name: raw_popular_movies
+      - name: raw_genres
