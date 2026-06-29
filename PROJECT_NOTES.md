@@ -24,7 +24,6 @@ dbt Gold
     ↓
 Analytics / Dashboard
 ```
-
 ## Milestone 1: Environment Setup
 ### Prerequisites 
 #### Local Environment
