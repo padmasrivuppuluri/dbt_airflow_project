@@ -331,19 +331,19 @@ Implement incremental processing and data auditing capabilities.
 * Improved pipeline efficiency by processing only new or changed data
 
 ## Milestone 10 – Macros
-Created get_rating_category()
-Created get_popularity_category()
+- Created get_rating_category()
+- Created get_popularity_category()
 Replaced CASE statements with reusable macros
 
 ## Milestone 11 – Seeds
 Created genre_mapping.csv
-Executed dbt seed
-Generated tmdb.genre_mapping
+- Executed dbt seed
+- Generated tmdb.genre_mapping
 
 ## Milestone 12 – Snapshots
 Created raw_popular_movies_snapshot
-Executed dbt snapshot
-Verified SCD2 columns
+- Executed dbt snapshot
+- Verified SCD2 columns
 ## Milestone 13 – Airflow Scheduling, Retries and Notifications
 Improve pipeline reliability and automate execution using production-ready Airflow features.
 ### Enhancements
