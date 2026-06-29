@@ -9,6 +9,7 @@
 - Docker
 - Star Schema Modeling
 ## Architecture
+```text
 TMDB API
     ↓
 Airflow
@@ -22,6 +23,7 @@ dbt Silver
 dbt Gold
     ↓
 Analytics / Dashboard
+```
 
 ## Milestone 1: Environment Setup
 ### Prerequisites 
